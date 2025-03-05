@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: black;
+  color: white;
+
+}
+
+.neon-text {
+  text-shadow:
+    0 0 7px #ff0000,
+    0 0 10px #ff0000,
+    0 0 21px #ff0000,
+    0 0 42px #ff0000,
+    0 0 82px #ff0000,
+    0 0 92px #ff0000,
+    0 0 102px #ff0000,
+    0 0 151px #ff0000;
+  color: white;
+}
+
+/* Scrollbar módosítása */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #000000;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #ff0000;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #cc0000;
+}
+
+/* Kijelölés színe */
+::selection {
+  background: #ff0000;
+  color: #ffffff;
+}
