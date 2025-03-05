@@ -2,7 +2,7 @@
 
 import Image from "next/image"
 import Link from "next/link"
-import { DiscIcon as Facebook, Instagram } from "lucide-react"
+import { Facebook, Instagram } from "lucide-react"
 import { motion } from "framer-motion"
 import { TikTok } from "@/components/tiktok-icon"
 import { MobileMenu } from "@/components/mobile-menu"
